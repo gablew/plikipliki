@@ -1,0 +1,27 @@
+.status, .result {
+    font-size:20px;
+
+}
+.board__row {
+    display:flex;
+}
+
+.board__cell {
+    width:100px;
+    height:100px;
+    border:2px solid gray;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.board__cell:hover{
+    background-color: lightgray;
+}
+
+.board__cell--kolko {
+    background-image: url(kolko.png);
+}
+
+.board__cell--krzyzyk {
+    background-image: url(krzyzyk.png);
+}
